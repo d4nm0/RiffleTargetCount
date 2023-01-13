@@ -4,6 +4,14 @@
 it's a python program to count the points on his sport shooting target, for the moment it works only with one type of target
 
 
+## Roadmap
+
+- fix the bug that makes it not count the impact when it is on the point line
+- Add my own shooting targets that I use when I shoot 
+- Adding other target types
+- Potentially create a mobile app or web interface that communicates with the script to take a picture of the target 
+
+
 ## Image Template
 
 ![Image Template](https://github.com/d4nm0/RiffleTargetCount/blob/main/center.jpg?raw=true)
