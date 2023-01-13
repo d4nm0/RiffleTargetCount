@@ -10,6 +10,7 @@ it's a python program to count the points on his sport shooting target, for the 
 - Add my own shooting targets that I use when I shoot 
 - Adding other target types
 - Potentially create a mobile app or web interface that communicates with the script to take a picture of the target 
+- add the possibility that the user points this impact on the target if they are not detected 
 
 
 ## Image Template
@@ -27,4 +28,10 @@ it's a python program to count the points on his sport shooting target, for the 
 ## Result
 
 ![Result  ](https://github.com/d4nm0/RiffleTargetCount/blob/main/Capture%20d%E2%80%99%C3%A9cran%202023-01-13%20164200.png?raw=true)
+
+
+I have an example with one of my targets from last Saturday. The script reacts rather badly. The photo was not taken straight up, I took it from above so it must have been an extra effort for the script.
+
+[Result  ](https://github.com/d4nm0/RiffleTargetCount/blob/main/IMG_5973.jpg?raw=true)
+
 
