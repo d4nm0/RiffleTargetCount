@@ -5,12 +5,7 @@ it's a python program to count the points on his sport shooting target, for the 
 
 ## Roadmap
 
-- fix the bug that makes it not count the impact when it is on the point line
-- Add my own shooting targets that I use when I shoot 
-- Adding other target types
-- Potentially create a mobile app or web interface that communicates with the script to take a picture of the target 
-- add the possibility that the user points this impact on the target if they are not detected 
-
+[Roadmap](https://github.com/users/d4nm0/projects/1)
 
 ## Image Template
 
