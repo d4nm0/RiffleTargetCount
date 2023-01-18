@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Count point riffle target</title>
+</head>
+
+<body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h1>Count score for riffle target </h1>
+    <h3>Just for this target for this moment : 50 match 1989</h3>
+    <h4>you can choose the photo of your target with the form above and click on upload. And then you will have a
+        display that looks like the one below</h4>
+    <p>total score : {{ Point }}</p>
+    <p>number of impacts in the target : {{ Impact }}</p>
+    <p>total number of impacts on the cardboard : {{ totalImpact }}</p>
+    <img src="{{url_for('static', filename='resultat.png')}}" alt="Résultat">
+</body>
+
+</html>
