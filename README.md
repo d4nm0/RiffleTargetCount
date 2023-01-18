@@ -2,7 +2,6 @@
 
 it's a python program to count the points on his sport shooting target, for the moment it works only with one type of target
 
-
 ## Roadmap
 
 [Roadmap](https://github.com/users/d4nm0/projects/1)
