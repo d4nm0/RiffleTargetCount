@@ -3,6 +3,7 @@
 
 <head>
     <title>Count point riffle target</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -11,10 +12,28 @@
         <input type="submit" value="Upload">
     </form>
 
-    <h1>Treatment result</h1>
-    <p>total score : {{ Point }}</p>
-    <p>number of impacts in the target : {{ Impact }}</p>
-    <p>total number of impacts on the cardboard : {{ totalImpact }}</p>
+    <h1>Count score for riffle target </h1>
+    <h3 style="margin-bottom: 0;">Just for this target for this moment : 50 match 1989</h3>
+    <h4 style="margin-top: 0;">you can choose the photo of your target with the form above and click on upload.<br> And then you will have a
+        display that looks like the one below</h4>
+    <br>
+  <br>
+  <div class="point">
+    <div>
+      <p class="title">Score</p>
+      <p class="value"><span>{{ Point }}</span></p>
+    </div>
+    <div>
+      <p class="title">Impacts Target</p>
+      <p class="value"><span>{{ Impact }}</span></p>
+    </div>
+    <div>
+      <p class="title">Impacts Cardboard</p>
+      <p class="value"> <span>{{ totalImpact }}</span></p>
+    </div>
+  </div>
+  <br>
+  <br>
     <img src="{{url_for('static', filename='resultat.png')}}" alt="Résultat">
     <a href="/download/resultat.png" download>Download the image</a>
 </body>
