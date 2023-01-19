@@ -29,3 +29,12 @@ p{
 .point>div{
   margin:25px;
 }
+
+a{
+  background-color:#8F61F2;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
